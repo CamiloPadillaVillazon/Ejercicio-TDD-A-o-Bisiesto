@@ -13,5 +13,8 @@ it("Anio dividido por 4", () => {
     expect(isAnioBisiesto(2012)).toEqual("Anio Bisiesto");
 });
 
+it("Anio no divisible por 4", () => {
+    expect(isAnioBisiesto(2018)).toEqual("Anio NO Bisiesto");
+});
 
 });

@@ -8,6 +8,10 @@ function isAnioBisiesto(anio) {
     if(anio%4 === 0)
         return "Anio Bisiesto"
 
+    if(anio%4 !== 0)
+        return "Anio NO Bisiesto"
+
+
     return anio+"";
 }
 
