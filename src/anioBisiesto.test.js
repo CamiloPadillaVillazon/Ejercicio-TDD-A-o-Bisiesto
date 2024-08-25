@@ -9,7 +9,9 @@ it("Anio dividido por 100", () => {
     expect(isAnioBisiesto(1700)).toEqual("Anio NO Bisiesto");
 });
 
-
+it("Anio dividido por 4", () => {
+    expect(isAnioBisiesto(2012)).toEqual("Anio Bisiesto");
+});
 
 
 });
