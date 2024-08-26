@@ -1,18 +1,14 @@
 function isAnioBisiesto(anio) {
     if(anio%400 === 0)
-        return "Anio Bisiesto"
+        return true
 
     if(anio%100 === 0)
-        return "Anio NO Bisiesto"
+        return false
 
     if(anio%4 === 0)
-        return "Anio Bisiesto"
+        return true
 
-    if(anio%4 !== 0)
-        return "Anio NO Bisiesto"
-
-
-    return anio+"";
+    return false;
 }
 
 export default isAnioBisiesto;
